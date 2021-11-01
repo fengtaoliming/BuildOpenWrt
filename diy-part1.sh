@@ -26,4 +26,4 @@ git clone --depth=1 https://github.com/apollo-ng/luci-theme-darkmatter.git
 
 cd -
 sed -i 's/net.netfilter.nf_conntrack_max=.*/net.netfilter.nf_conntrack_max=65535/g' package/kernel/linux/files/sysctl-nf-conntrack.conf
-sed -i 's/192.168.1.1/92.168.8.4/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.8.4/g' package/base-files/files/bin/config_generate
